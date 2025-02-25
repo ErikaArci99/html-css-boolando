@@ -9,6 +9,7 @@ header{
     height: 75px;
     position: sticky;
     top: 0px;
+    z-index: 2;
 }
 
 footer{
@@ -39,7 +40,78 @@ span{
     height: 650px;
 }
 
+
+.red-icon-wd-hi{
+    width: 55px;
+    height: 28px;
+}
+
+.green-icon-wd-hi{
+    width: 100px;
+    height: 28px;
+}
+
+.icon-1{
+    position: absolute;
+    top: 715px;
+    bottom: 0px;
+    left: 239px;
+    right: 0px;
+}
+
+.icon-2{
+    position: absolute;
+    top: 715px;
+    bottom: 0px;
+    left: 300px;
+    right: 0px;
+}
+
+.icon-3{
+    position: absolute;
+    top: 715px;
+    bottom: 0px;
+    left: 723px;
+    right: 0px;
+}
+
+.icon-4{
+    position: absolute;
+    top: 715px;
+    bottom: 0px;
+    left: 1209px;
+    right: 0px;
+}
+
+.icon-5{
+    position: absolute;
+    top: 1484px;
+    bottom: 0px;
+    left: 239px;
+    right: 0px;
+}
+
+.icon-6{
+    position: absolute;
+    top: 1484px;
+    bottom: 0px;
+    left: 300px;
+    right: 0px;
+}
+
+.icon-7{
+    position: absolute;
+    top: 1484px;
+    bottom: 0px;
+    left: 1209px;
+    right: 0px;   
+}
+
 /* utility */
+
+.z-index-1{
+    z-index: 1;
+}
 
 .display-flex-justify-center{
     display: flex;
@@ -102,6 +174,12 @@ span{
     margin-top: 100px;
 }
 
+/* padding */
+
+.padding-top-5{
+    padding-top: 5px;
+}
+
 /* colori testo */
 
 .text-color-white{
@@ -126,6 +204,14 @@ span{
     font-size: 20px;
 }
 
+.bc-color-red{
+    background-color: red;
+}
+
+.bc-color-green{
+    background-color: green;
+}
+
 /* decorazioni testo */
 
 .text-decoration-line-trough{
@@ -136,4 +222,10 @@ span{
 
 .gap-10{
     gap: 35px;
+}
+
+/* text align */
+
+.text-align-cn{
+    text-align: center;
 }
