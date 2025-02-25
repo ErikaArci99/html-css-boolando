@@ -7,6 +7,8 @@
 header{
     background-color: #FF6900;
     height: 75px;
+    position: sticky;
+    top: 0px;
 }
 
 footer{
@@ -53,9 +55,6 @@ span{
     display: flex;
     flex-wrap: wrap;
 }
-
-/* altezze */
-
 
 /* margini */
 
