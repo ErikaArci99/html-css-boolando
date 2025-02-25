@@ -9,27 +9,45 @@ header{
     height: 75px;
 }
 
-.container{
-    background-color: yellow;
-    width: 70%;
-    height: 75px;
-}
-
 footer{
     height: 105px;
     background-color: #1A1A1A;
 }
+
+span{
+    display: inline-block;
+}
+
+.container{
+    width: 75%;
+    background-color: lightsalmon;
+}
+
+.logo{
+    width: 145px;
+    height: 35px;
+}
+
+
+/* utility */
 
 .display-flex-justify-center{
     display: flex;
     justify-content: center;
 }
 
+.display-flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
 
-/* utility */
+/* altezze */
+
 .height-1450{
     height: 1450px;
 }
+
+/* margini */
 
 .margin-top-50{
     margin-top: 50px;
@@ -37,4 +55,28 @@ footer{
 
 .margin-bottom-50{
     margin-bottom: 50px;
+}
+
+.margin-top-25{
+    padding-top: 25px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.margin-5{
+    margin: 5px;
+}
+
+/* colori testo */
+
+.text-color-white{
+    color: white;
+}
+
+/* dimensioni font */
+
+.font-weight-500{
+    font-weight: 500;
 }
