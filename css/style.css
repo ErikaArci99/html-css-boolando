@@ -148,6 +148,22 @@ span{
     left: 1609px; 
 }
 
+.card:hover .front{
+    display: none;
+}
+
+.card:hover .back{
+    display: block;
+}
+
+.front{
+    display: block;
+}
+
+.back{
+    display: none;
+}
+
 /* utility */
 
 .z-index-1{
