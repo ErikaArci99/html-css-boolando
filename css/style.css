@@ -107,6 +107,47 @@ span{
     right: 0px;   
 }
 
+.heart-wd-hi{
+    width: 50px;
+    height: 50px;
+}
+
+.heart-1{
+    position: absolute;
+    top: 134px;
+    left: 638px;
+}
+
+.heart-2{
+    position: absolute;
+    top: 134px;
+    left: 1124px; 
+}
+
+.heart-3{
+    position: absolute;
+    top: 134px;
+    left: 1609px; 
+}
+
+.heart-4{
+    position: absolute;
+    top: 920px;
+    left: 638px;
+}
+
+.heart-5{
+    position: absolute;
+    top: 920px;
+    left: 1124px; 
+}
+
+.heart-6{
+    position: absolute;
+    top: 920px;
+    left: 1609px; 
+}
+
 /* utility */
 
 .z-index-1{
@@ -180,6 +221,10 @@ span{
     padding-top: 5px;
 }
 
+.padding-top-15{
+    padding-top: 15px;
+}
+
 /* colori testo */
 
 .text-color-white{
@@ -210,6 +255,10 @@ span{
 
 .bc-color-green{
     background-color: green;
+}
+
+.bc-color-white{
+    background-color: white;
 }
 
 /* decorazioni testo */
