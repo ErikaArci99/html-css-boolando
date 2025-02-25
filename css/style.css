@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #FF6900;
+    height: 75px;
+}
+
+.container{
+    background-color: yellow;
+    width: 70%;
+    height: 75px;
+}
+
+footer{
+    height: 105px;
+    background-color: #1A1A1A;
+}
+
+.display-flex-justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* utility */
+.height-1450{
+    height: 1450px;
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
+
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
